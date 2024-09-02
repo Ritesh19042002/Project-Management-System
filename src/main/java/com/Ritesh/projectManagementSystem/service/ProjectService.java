@@ -3,7 +3,6 @@ package com.Ritesh.projectManagementSystem.service;
 import com.Ritesh.projectManagementSystem.model.Chat;
 import com.Ritesh.projectManagementSystem.model.Project;
 import com.Ritesh.projectManagementSystem.model.User;
-import jdk.jshell.spi.ExecutionControl;
 
 import java.util.List;
 
@@ -23,4 +22,6 @@ public interface ProjectService {
     void removeUserToProject(Long projectId, Long userId)throws Exception;
 
     Chat getChatByProjectId(Long projectId)throws Exception;
+
+    List<Project> searchProjects(String keyword, User user)throws Exception;
 }
