@@ -25,6 +25,7 @@ Backend: [Spring Boot] for handling server-side operations and database interact
 Database: [MySQL] for storing project and user data.
 
 Authentication: JWT-based authentication for secure user access.
+
 Deployment: Docker and Kubernetes for containerized deployment and scaling.
 Installation
 
