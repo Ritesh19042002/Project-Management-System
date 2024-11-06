@@ -1,63 +1,89 @@
-# Project-Management-System
-The Project Management System is a web-based application designed to help teams efficiently manage and track the progress of their projects. This system facilitates project planning, task assignment, progress tracking, and collaboration among team members.
+# 📈 **Project Management System**
 
-Features
-Dashboard: Overview of ongoing projects, upcoming deadlines, and recent activities.
+The **Project Management System** is a web-based application crafted to streamline project tracking and team collaboration. Designed to assist teams in planning, assigning tasks, and tracking milestones, it’s a one-stop solution for project management efficiency.
 
-Project Creation and Management: Create and manage multiple projects with detailed descriptions, timelines, and priorities.
+---
 
-Task Assignment: Assign tasks to team members, set deadlines, and track completion status.
+## 🌟 **Features**
 
-Milestone Tracking: Define and track key milestones within a project to ensure timely progress.
+- **📊 Dashboard**  
+   - Overview of active projects, upcoming deadlines, and recent activities in a single glance.
 
-Collaboration Tools: Comment on tasks, share files, and communicate within the platform.
+- **📝 Project Creation & Management**  
+   - Create and manage multiple projects with descriptions, timelines, and priorities.
 
-Reporting and Analytics: Generate reports on project progress, resource allocation, and team performance.
+- **👥 Task Assignment**  
+   - Assign tasks to team members, set deadlines, and monitor completion statuses.
 
-User Management: Role-based access control to ensure data security and proper access.
+- **📅 Milestone Tracking**  
+   - Define and follow key project milestones to keep everything on schedule.
 
-Technologies Used
+- **💬 Collaboration Tools**  
+   - Comment on tasks, share files, and communicate seamlessly within the platform.
 
-Frontend: [React.js, Shadcn UI, Redux, Tailwind] for a responsive and interactive user interface.
+- **📈 Reporting & Analytics**  
+   - Generate detailed reports on project progress, resource utilization, and team performance.
 
-Backend: [Spring Boot] for handling server-side operations and database interactions.
+- **🔒 User Management**  
+   - Role-based access controls ensure secure data handling and user-specific access permissions.
 
-Database: [MySQL] for storing project and user data.
+---
 
-Authentication: JWT-based authentication for secure user access.
+## 🛠️ **Technologies Used**
 
-Deployment: Docker and Kubernetes for containerized deployment and scaling.
-Installation
+- **Frontend**: *React.js, Shadcn UI, Redux, Tailwind CSS* – for a responsive, interactive user interface.
+- **Backend**: *Spring Boot* – powers server-side logic and database interactions.
+- **Database**: *MySQL* – stores project, task, and user data securely.
+- **Authentication**: *JWT-based authentication* for secure user access.
 
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/Ritesh19042002/project-management-system.git
-Navigate to the project directory:
-bash
+---
 
-Copy code
-cd project-management-system
-Install the necessary dependencies:
+## 🚀 **Installation**
 
-bash
-Copy code
-npm install  # For Node.js projects
-Configure environment variables for database connection, authentication, etc.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Ritesh19042002/project-management-system.git
+   
+2. **Navigate to the project directory:**
+   ```bash
+   cd project-management-system
 
-Start the development server:
-bash
-Copy code
-npm start  # For Node.js projects
+3. **Install dependancies:**
+   ```bash
+   npm install #For front end dependancies
 
-Usage
-Register or log in with your credentials.
+4. **Configure environment variables:**
+   Set up environment variables for database connections, authentication, and other settings.
 
-Create a new project and start adding tasks.
-Assign tasks to team members and set deadlines.
-Track the progress of each task and milestone.
-Collaborate with your team by commenting and sharing files.
+3. **Start the development server:**
+   ```bash
+   npm dev start
 
+## 🔑 Usage
 
-Contributing
-Contributions are welcome! Please fork this repository, create a new branch for your feature or bug fix, and submit a pull request for review.
+- **Register or log in** with your credentials.
+- **Create a new project** and start adding tasks.
+- **Assign tasks** to team members and set deadlines.
+- **Track progress** of each task and milestone.
+- **Collaborate** by commenting and sharing files with your team.
+
+## 🔑 Usage Cases
+
+- **Register / Log in**  
+   After setting up the project, users can register or log in to access the platform using their credentials.
+
+- **Create a New Project**  
+   Create a new project with details such as description, timeline, and priority.
+
+- **Assign Tasks to Team Members**  
+   Assign tasks to different team members and set deadlines for each task.
+
+- **Track Task Progress**  
+   Keep track of the completion status of each task and its progress toward milestones.
+
+- **Collaborate and Share Files**  
+   Use the platform to comment on tasks, share files, and communicate with the team.
+
+- **Payment or Subscription Using Rezopay**  
+   Users can subscribe or make payments for premium features via **Rezopay**, enabling secure transactions and access to exclusive functionalities.
+   
